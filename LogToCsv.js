@@ -1,4 +1,4 @@
-
+var emailtitle="AuthCommit Declined Failures["+($.Current.Index+1) +"/"+ $.Steps.Search_logs.logs.length +"] -"+ $.Trigger.PartnerName +""
 var logs=[];
 logs.push($.Current.Value);
     var jsonObject=logs[0].content.attributes;
