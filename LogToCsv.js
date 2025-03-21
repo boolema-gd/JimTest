@@ -30,7 +30,7 @@ function formatNumber(number, options = {}) {
 }
 
     // Add the header row
-    csvRows.push(keys.join(','));
+    csvRows.push(keys.join(';'));
 
     // Add the data rows
     _.forEach(logs,(obj1) => {
