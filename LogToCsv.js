@@ -50,7 +50,7 @@ return date.Time;
             }
            return key in obj?obj[key]:"";
             });
-        csvRows.push(values.map((v,i)=>'"'+v+'"').join(','));
+        csvRows.push(values.map((v,i)=>'"'+'"').join(','));
     });
 
     return csvRows.join('\n');
